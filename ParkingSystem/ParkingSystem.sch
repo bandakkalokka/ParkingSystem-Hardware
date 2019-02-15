@@ -17,16 +17,16 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 5C61FDE7
-P 8150 4200
-F 0 "#PWR0101" H 8150 3950 50  0001 C CNN
-F 1 "GND" H 8155 4027 50  0000 C CNN
-F 2 "" H 8150 4200 50  0001 C CNN
-F 3 "" H 8150 4200 50  0001 C CNN
-	1    8150 4200
+P 8300 4200
+F 0 "#PWR0101" H 8300 3950 50  0001 C CNN
+F 1 "GND" H 8305 4027 50  0000 C CNN
+F 2 "" H 8300 4200 50  0001 C CNN
+F 3 "" H 8300 4200 50  0001 C CNN
+	1    8300 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 4000 8150 4100
+	8300 4000 8300 4100
 $Comp
 L Device:C C?
 U 1 1 5C6203D0
@@ -407,12 +407,12 @@ Wire Wire Line
 $Comp
 L MCU_ST_STM32F1:STM32F103C4Tx U?
 U 1 1 5C643133
-P 8250 2500
-F 0 "U?" H 7400 4200 50  0000 C CNN
-F 1 "STM32F103C4Tx" H 7650 4100 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7650 1100 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf" H 8250 2500 50  0001 C CNN
-	1    8250 2500
+P 8400 2500
+F 0 "U?" H 7550 4200 50  0000 C CNN
+F 1 "STM32F103C4Tx" H 7800 4100 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7800 1100 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf" H 8400 2500 50  0001 C CNN
+	1    8400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -621,54 +621,54 @@ Wire Notes Line
 Text Notes 10800 3200 2    50   ~ 0
 For\nVDDA
 Wire Wire Line
-	8250 4000 8250 4100
+	8400 4000 8400 4100
 Wire Wire Line
-	8250 4100 8150 4100
-Connection ~ 8150 4100
+	8400 4100 8300 4100
+Connection ~ 8300 4100
 Wire Wire Line
-	8150 4100 8150 4200
+	8300 4100 8300 4200
 Wire Wire Line
-	8050 4000 8050 4100
+	8200 4000 8200 4100
 Wire Wire Line
-	8050 4100 8150 4100
+	8200 4100 8300 4100
 Wire Wire Line
-	8350 4000 8350 4100
+	8500 4000 8500 4100
 Wire Wire Line
-	8350 4100 8250 4100
-Connection ~ 8250 4100
+	8500 4100 8400 4100
+Connection ~ 8400 4100
 $Comp
 L power:+3V3 #PWR0131
 U 1 1 5C669115
-P 8250 850
-F 0 "#PWR0131" H 8250 700 50  0001 C CNN
-F 1 "+3V3" H 8265 1023 50  0000 C CNN
-F 2 "" H 8250 850 50  0001 C CNN
-F 3 "" H 8250 850 50  0001 C CNN
-	1    8250 850 
+P 8400 850
+F 0 "#PWR0131" H 8400 700 50  0001 C CNN
+F 1 "+3V3" H 8415 1023 50  0000 C CNN
+F 2 "" H 8400 850 50  0001 C CNN
+F 3 "" H 8400 850 50  0001 C CNN
+	1    8400 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 850  8250 950 
+	8400 850  8400 950 
 Wire Wire Line
-	8150 1000 8150 950 
+	8300 1000 8300 950 
 Wire Wire Line
-	8150 950  8250 950 
-Connection ~ 8250 950 
+	8300 950  8400 950 
+Connection ~ 8400 950 
 Wire Wire Line
-	8250 950  8250 1000
+	8400 950  8400 1000
 Wire Wire Line
-	8350 1000 8350 950 
+	8500 1000 8500 950 
 Wire Wire Line
-	8350 950  8250 950 
+	8500 950  8400 950 
 Wire Wire Line
-	8450 1000 8450 950 
+	8600 1000 8600 950 
 Wire Wire Line
-	8450 950  8350 950 
-Connection ~ 8350 950 
-Text Label 7250 1200 0    50   ~ 0
+	8600 950  8500 950 
+Connection ~ 8500 950 
+Text Label 7400 1200 0    50   ~ 0
 RESET
 Wire Wire Line
-	7550 1200 7250 1200
+	7700 1200 7400 1200
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5C672228
@@ -680,7 +680,7 @@ F 3 "" H 10450 4450 50  0001 C CNN
 	1    10450 4250
 	0    1    1    0   
 $EndComp
-Text Label 9800 4050 2    50   ~ 0
+Text Label 9800 4050 0    50   ~ 0
 RESET
 Wire Wire Line
 	9800 4050 10100 4050
@@ -737,14 +737,14 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/DS1621.pdf" H 10050 5950 50  0
 	1    10200 5700
 	1    0    0    -1  
 $EndComp
-Text Label 7150 2900 0    50   ~ 0
+Text Label 7300 2900 0    50   ~ 0
 I2C1_SCL
-Text Label 7150 3000 0    50   ~ 0
+Text Label 7300 3000 0    50   ~ 0
 I2C1_SDA
 Wire Wire Line
-	7150 2900 7550 2900
+	7300 2900 7700 2900
 Wire Wire Line
-	7150 3000 7550 3000
+	7300 3000 7700 3000
 Wire Wire Line
 	9000 5500 9450 5500
 Wire Wire Line
@@ -1319,31 +1319,153 @@ Wire Wire Line
 	6150 1250 6150 1300
 Wire Wire Line
 	6150 1650 6150 1600
-Text Label 9200 2700 2    50   ~ 0
+Text Label 9350 2700 2    50   ~ 0
 BUZZER
 Wire Wire Line
-	9200 2700 8850 2700
-Text Label 9050 2800 2    50   ~ 0
+	9350 2700 9000 2700
+Text Label 9350 2800 2    50   ~ 0
 RED
-Text Label 7150 3400 0    50   ~ 0
+Text Label 7300 3400 0    50   ~ 0
 GREEN
-Text Label 7150 3300 0    50   ~ 0
+Text Label 7300 3300 0    50   ~ 0
 BLUE
 Wire Wire Line
-	9050 2800 8850 2800
+	9350 2800 9000 2800
 Wire Wire Line
-	7150 3400 7550 3400
+	7300 3400 7700 3400
 Wire Wire Line
-	7150 3300 7550 3300
+	7300 3300 7700 3300
 $Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 5C6DBD5C
-P 3300 6900
-F 0 "J?" H 3406 7478 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 3406 7387 50  0000 C CNN
-F 2 "" H 3300 6900 50  0001 C CNN
-F 3 "~" H 3300 6900 50  0001 C CNN
-	1    3300 6900
+L Connector:Conn_ARM_JTAG_SWD_10 J?
+U 1 1 5C66F75A
+P 4400 6850
+F 0 "J?" H 3960 6896 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 3960 6805 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 4450 6300 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 4050 5600 50  0001 C CNN
+	1    4400 6850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C66FD39
+P 4400 6050
+F 0 "#PWR?" H 4400 5900 50  0001 C CNN
+F 1 "+3V3" H 4415 6223 50  0000 C CNN
+F 2 "" H 4400 6050 50  0001 C CNN
+F 3 "" H 4400 6050 50  0001 C CNN
+	1    4400 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6050 4400 6250
+$Comp
+L power:GND #PWR?
+U 1 1 5C676D24
+P 4400 7550
+F 0 "#PWR?" H 4400 7300 50  0001 C CNN
+F 1 "GND" H 4405 7377 50  0000 C CNN
+F 2 "" H 4400 7550 50  0001 C CNN
+F 3 "" H 4400 7550 50  0001 C CNN
+	1    4400 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 7550 4300 7550
+Wire Wire Line
+	4300 7550 4300 7450
+Wire Wire Line
+	4400 7450 4400 7550
+Connection ~ 4400 7550
+Text Label 5250 6550 2    50   ~ 0
+RESET
+Text Label 5250 6750 2    50   ~ 0
+SWDCLK
+Text Label 5250 6850 2    50   ~ 0
+SWDIO
+Text Label 9350 3600 2    50   ~ 0
+SWDIO
+Wire Wire Line
+	9350 3600 9000 3600
+Text Label 9350 3700 2    50   ~ 0
+SWDCLK
+Wire Wire Line
+	9350 3700 9000 3700
+$Comp
+L Device:R_US R?
+U 1 1 5C6B9C73
+P 7350 1550
+F 0 "R?" H 7282 1504 50  0000 R CNN
+F 1 "10K" H 7282 1595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7390 1540 50  0001 C CNN
+F 3 "~" H 7350 1550 50  0001 C CNN
+	1    7350 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 1400 7350 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5C6C098A
+P 7350 1750
+F 0 "#PWR?" H 7350 1500 50  0001 C CNN
+F 1 "GND" H 7355 1577 50  0000 C CNN
+F 2 "" H 7350 1750 50  0001 C CNN
+F 3 "" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1750 7350 1700
+Text Label 5250 7050 2    50   ~ 0
+TDI
+Wire Wire Line
+	5250 7050 4900 7050
+Text Label 9350 3800 2    50   ~ 0
+TDI
+Wire Wire Line
+	9350 3800 9000 3800
+Text Label 5250 6950 2    50   ~ 0
+TDO
+Wire Wire Line
+	5250 6950 4900 6950
+Wire Wire Line
+	5250 6550 4950 6550
+Wire Wire Line
+	4900 6750 5250 6750
+Wire Wire Line
+	4900 6850 5250 6850
+Text Label 7300 2600 0    50   ~ 0
+TDO
+Wire Wire Line
+	7300 2600 7700 2600
+$Comp
+L Device:R_US R?
+U 1 1 5C7615AD
+P 4950 6250
+F 0 "R?" H 5018 6296 50  0000 L CNN
+F 1 "10K" H 5018 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4990 6240 50  0001 C CNN
+F 3 "~" H 4950 6250 50  0001 C CNN
+	1    4950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C7616B6
+P 4950 5950
+F 0 "#PWR?" H 4950 5800 50  0001 C CNN
+F 1 "+3V3" H 4965 6123 50  0000 C CNN
+F 2 "" H 4950 5950 50  0001 C CNN
+F 3 "" H 4950 5950 50  0001 C CNN
+	1    4950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6400 4950 6550
+Connection ~ 4950 6550
+Wire Wire Line
+	4950 6550 4900 6550
+Wire Wire Line
+	4950 5950 4950 6100
 $EndSCHEMATC

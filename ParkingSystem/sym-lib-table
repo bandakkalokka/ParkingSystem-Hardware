@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Connectors)(type Legacy)(uri "/home/bandakka/Documents/ENEL400/ParkingSystem-Hardware/ParkingSystem/Custom Libraries/Connectors.lib")(options "")(descr ""))
+  (lib (name MOSFETS)(type Legacy)(uri "/home/bandakka/Documents/ENEL400/ParkingSystem-Hardware/ParkingSystem/Custom Libraries/MOSFETS.lib")(options "")(descr ""))
+  (lib (name Buzzers)(type Legacy)(uri "/home/bandakka/Documents/ENEL400/ParkingSystem-Hardware/ParkingSystem/Custom Libraries/Buzzers.lib")(options "")(descr ""))
+)

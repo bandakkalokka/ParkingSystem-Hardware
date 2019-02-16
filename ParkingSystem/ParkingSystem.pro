@@ -1,4 +1,4 @@
-update=Tue 12 Feb 2019 03:19:30 PM MST
+update=Fri 15 Feb 2019 01:55:09 PM MST
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=./ParkingSystem-Schematic
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

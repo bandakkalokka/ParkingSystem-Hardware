@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name Connectors)(type KiCad)(uri "${KIPRJMOD}/Custom Libraries/Connectors.pretty")(options "")(descr ""))
+  (lib (name MOSFETS)(type KiCad)(uri "${KIPRJMOD}/Custom Libraries/MOSFETS.pretty")(options "")(descr ""))
+  (lib (name Buzzers)(type KiCad)(uri "${KIPRJMOD}/Custom Libraries/Buzzers.pretty")(options "")(descr ""))
+  (lib (name Oscillators)(type KiCad)(uri "${KIPRJMOD}/Custom Libraries/Oscillators.pretty")(options "")(descr ""))
 )

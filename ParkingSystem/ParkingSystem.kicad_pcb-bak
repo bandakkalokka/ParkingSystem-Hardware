@@ -42,7 +42,7 @@
 
   (setup
     (last_trace_width 0.254)
-    (trace_clearance 0.1524)
+    (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.1524)
@@ -154,7 +154,7 @@
   (net 54 "Net-(U4-Pad3)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.1524)
+    (clearance 0.254)
     (trace_width 0.254)
     (via_dia 0.7874)
     (via_drill 0.381)

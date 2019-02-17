@@ -1578,4 +1578,26 @@ Wire Wire Line
 Wire Wire Line
 	9400 2900 9000 2900
 NoConn ~ 7700 3100
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C69771C
+P 5600 7400
+F 0 "H2" H 5700 7446 50  0000 L CNN
+F 1 "MountingHole" H 5700 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 5600 7400 50  0001 C CNN
+F 3 "~" H 5600 7400 50  0001 C CNN
+	1    5600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C6978DE
+P 5600 7100
+F 0 "H1" H 5700 7146 50  0000 L CNN
+F 1 "MountingHole" H 5700 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 5600 7100 50  0001 C CNN
+F 3 "~" H 5600 7100 50  0001 C CNN
+	1    5600 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

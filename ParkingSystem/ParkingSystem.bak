@@ -1538,10 +1538,8 @@ G_POWER
 Wire Wire Line
 	2750 6650 2350 6650
 NoConn ~ 10700 5700
-Text Label 7250 3100 0    50   ~ 0
+Text Label 9400 2900 2    50   ~ 0
 INDICATOR
-Wire Wire Line
-	7250 3100 7700 3100
 $Comp
 L ParkingSystem-rescue:+3V3-power #PWR0135
 U 1 1 5C6AC93A
@@ -1577,4 +1575,29 @@ NoConn ~ 7700 3300
 NoConn ~ 7700 3400
 Wire Wire Line
 	7300 2700 7700 2700
+Wire Wire Line
+	9400 2900 9000 2900
+NoConn ~ 7700 3100
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C69771C
+P 5600 7400
+F 0 "H2" H 5700 7446 50  0000 L CNN
+F 1 "MountingHole" H 5700 7355 50  0000 L CNN
+F 2 "" H 5600 7400 50  0001 C CNN
+F 3 "~" H 5600 7400 50  0001 C CNN
+	1    5600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C6978DE
+P 5600 7100
+F 0 "H1" H 5700 7146 50  0000 L CNN
+F 1 "MountingHole" H 5700 7055 50  0000 L CNN
+F 2 "" H 5600 7100 50  0001 C CNN
+F 3 "~" H 5600 7100 50  0001 C CNN
+	1    5600 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

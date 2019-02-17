@@ -1070,7 +1070,7 @@ U 1 1 5C704C8F
 P 2200 6650
 F 0 "J2" H 2256 7075 50  0000 C CNN
 F 1 "0430450400" H 2256 6984 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" H 2200 6650 50  0001 C CNN
+F 2 "Connectors:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" H 2200 6650 50  0001 C CNN
 F 3 "" H 2200 6650 50  0001 C CNN
 	1    2200 6650
 	1    0    0    -1  
@@ -1104,7 +1104,7 @@ U 1 1 5C71D021
 P 2200 7350
 F 0 "J5" H 2256 7625 50  0000 C CNN
 F 1 "0430450200" H 2256 7534 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 2200 7350 50  0001 C CNN
+F 2 "Connectors:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal" H 2200 7350 50  0001 C CNN
 F 3 "" H 2200 7350 50  0001 C CNN
 	1    2200 7350
 	1    0    0    -1  
@@ -1579,7 +1579,7 @@ Wire Wire Line
 	9400 2900 9000 2900
 NoConn ~ 7700 3100
 $Comp
-L Mechanical:MountingHole H2
+L ParkingSystem-rescue:MountingHole-Mechanical H2
 U 1 1 5C69771C
 P 5600 7400
 F 0 "H2" H 5700 7446 50  0000 L CNN
@@ -1590,7 +1590,7 @@ F 3 "~" H 5600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L ParkingSystem-rescue:MountingHole-Mechanical H1
 U 1 1 5C6978DE
 P 5600 7100
 F 0 "H1" H 5700 7146 50  0000 L CNN

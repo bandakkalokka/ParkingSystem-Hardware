@@ -1,11 +1,86 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Buzzers_AI-2437-TWT-R
+# ParkingSystem-rescue_+12V-power
 #
-DEF Buzzers_AI-2437-TWT-R LS 0 40 Y Y 1 F N
+DEF ParkingSystem-rescue_+12V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ParkingSystem-rescue_+12V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_+3V3-power
+#
+DEF ParkingSystem-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ParkingSystem-rescue_+3V3-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_+5V-power
+#
+DEF ParkingSystem-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ParkingSystem-rescue_+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_0430450200-Connectors
+#
+DEF ParkingSystem-rescue_0430450200-Connectors J 0 40 Y Y 1 F N
+F0 "J" -200 250 50 H V C CNN
+F1 "ParkingSystem-rescue_0430450200-Connectors" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 100 50 -100 0 1 0 f
+X ~ 1 150 50 100 L 50 50 1 1 W
+X ~ 2 150 -50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_0430450400-Connectors
+#
+DEF ParkingSystem-rescue_0430450400-Connectors J 0 40 Y Y 1 F N
+F0 "J" -150 400 50 H V C CNN
+F1 "ParkingSystem-rescue_0430450400-Connectors" 50 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 250 50 -150 0 1 0 f
+X ~ 1 150 -100 100 L 50 50 1 1 w
+X ~ 2 150 0 100 L 50 50 1 1 w
+X ~ 3 150 100 100 L 50 50 1 1 w
+X ~ 4 150 200 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_AI-2437-TWT-R-Buzzers
+#
+DEF ParkingSystem-rescue_AI-2437-TWT-R-Buzzers LS 0 40 Y Y 1 F N
 F0 "LS" -300 600 50 H V C CNN
-F1 "Buzzers_AI-2437-TWT-R" -50 500 50 H V C CNN
+F1 "ParkingSystem-rescue_AI-2437-TWT-R-Buzzers" -50 500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +91,47 @@ X ~ 2 50 50 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x04_Female
+# ParkingSystem-rescue_C-Device
 #
-DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
+DEF ParkingSystem-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "ParkingSystem-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_C_Small-Device
+#
+DEF ParkingSystem-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "ParkingSystem-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_Conn_01x04_Female-Connector
+#
+DEF ParkingSystem-rescue_Conn_01x04_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
+F1 "ParkingSystem-rescue_Conn_01x04_Female-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -42,11 +153,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_ARM_JTAG_SWD_10
+# ParkingSystem-rescue_Conn_ARM_JTAG_SWD_10-Connector
 #
-DEF Connector_Conn_ARM_JTAG_SWD_10 J 0 40 Y Y 1 F N
+DEF ParkingSystem-rescue_Conn_ARM_JTAG_SWD_10-Connector J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
-F1 "Connector_Conn_ARM_JTAG_SWD_10" -100 550 50 H V R BNN
+F1 "ParkingSystem-rescue_Conn_ARM_JTAG_SWD_10-Connector" -100 550 50 H V R BNN
 F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -77,77 +188,11 @@ X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Connectors_0430450200
+# ParkingSystem-rescue_Crystal-Device
 #
-DEF Connectors_0430450200 J 0 40 Y Y 1 F N
-F0 "J" -200 250 50 H V C CNN
-F1 "Connectors_0430450200" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 100 50 -100 0 1 0 f
-X ~ 1 150 50 100 L 50 50 1 1 W
-X ~ 2 150 -50 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Connectors_0430450400
-#
-DEF Connectors_0430450400 J 0 40 Y Y 1 F N
-F0 "J" -150 400 50 H V C CNN
-F1 "Connectors_0430450400" 50 300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 250 50 -150 0 1 0 f
-X ~ 1 150 -100 100 L 50 50 1 1 w
-X ~ 2 150 0 100 L 50 50 1 1 w
-X ~ 3 150 100 100 L 50 50 1 1 w
-X ~ 4 150 200 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Device_C
-#
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_C_Small
-#
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
+DEF ParkingSystem-rescue_Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
+F1 "ParkingSystem-rescue_Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +209,57 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# ParkingSystem-rescue_DS1621S-Sensor_Temperature
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF ParkingSystem-rescue_DS1621S-Sensor_Temperature U 0 40 Y Y 1 F N
+F0 "U" -300 350 50 H V C CNN
+F1 "ParkingSystem-rescue_DS1621S-Sensor_Temperature" 250 350 50 H V C CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -1000 -350 50 H I C CNN
+F3 "" -150 250 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+A -130 125 25 1 1799 0 1 10 N -105 125 -155 125
+C -130 -100 50 0 1 10 F
+S -400 300 400 -300 0 1 10 f
+S -105 -75 -155 0 0 1 10 F
+P 2 0 1 10 -155 25 -130 25 N
+P 2 0 1 10 -155 50 -130 50 N
+P 2 0 1 10 -155 75 -130 75 N
+P 2 0 1 10 -155 100 -130 100 N
+P 2 0 1 10 -155 125 -155 0 N
+P 2 0 1 10 -155 125 -130 125 N
+P 2 0 1 10 -105 125 -105 0 N
+X SDA 1 -500 200 100 R 50 50 1 1 B
+X SCL 2 -500 100 100 R 50 50 1 1 I
+X TOUT 3 500 0 100 L 50 50 1 1 O
+X GND 4 0 -400 100 U 50 50 1 1 W
+X A2 5 -500 -200 100 R 50 50 1 1 I
+X A1 6 -500 -100 100 R 50 50 1 1 I
+X A0 7 -500 0 100 R 50 50 1 1 I
+X VDD 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_GND-power
+#
+DEF ParkingSystem-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "ParkingSystem-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_LED-Device
+#
+DEF ParkingSystem-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "ParkingSystem-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -187,11 +278,69 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_US
+# ParkingSystem-rescue_PJ-002A-Connectors
 #
-DEF Device_R_US R 0 0 N Y 1 F N
+DEF ParkingSystem-rescue_PJ-002A-Connectors J 0 40 Y Y 1 F N
+F0 "J" -350 350 50 H V C CNN
+F1 "ParkingSystem-rescue_PJ-002A-Connectors" -250 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -200 125 25 901 -901 0 1 0 N -200 150 -200 100
+S -400 200 100 -100 0 1 0 f
+P 2 0 1 0 50 150 -200 150 N
+P 2 0 1 0 100 150 50 150 N
+P 3 0 1 0 50 150 50 100 -200 100 N
+P 3 0 1 0 100 50 -50 50 -50 0 N
+P 4 0 1 0 -100 0 -50 -50 0 0 -100 0 N
+P 5 0 1 0 100 -50 -100 -50 -150 0 -200 -50 -250 -50 N
+X ~ 1 200 150 100 L 50 50 1 1 w
+X ~ 2 200 50 100 L 50 50 1 1 W
+X ~ 3 200 -50 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_R-783.3-0.5-Regulator_Switching
+#
+DEF ParkingSystem-rescue_R-783.3-0.5-Regulator_Switching U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "ParkingSystem-rescue_R-783.3-0.5-Regulator_Switching" 0 125 50 H V L CNN
+F2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" 50 -250 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Converter*DCDC*RECOM*R*78E*0.5*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_R-78E5.0-1.0-Regulator_Switching
+#
+DEF ParkingSystem-rescue_R-78E5.0-1.0-Regulator_Switching U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "ParkingSystem-rescue_R-78E5.0-1.0-Regulator_Switching" 0 125 50 H V L CNN
+F2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" 50 -250 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Converter*DCDC*RECOM*R*78E*0.5*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_R_US-Device
+#
+DEF ParkingSystem-rescue_R_US-Device R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "Device_R_US" -100 0 50 V V C CNN
+F1 "ParkingSystem-rescue_R_US-Device" -100 0 50 V V C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -208,14 +357,47 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_ST_STM32F1_STM32F103C4Tx
+# ParkingSystem-rescue_SSM3K333R,LF-MOSFETS
 #
-DEF MCU_ST_STM32F1_STM32F103C4Tx U 0 20 Y Y 1 F N
+DEF ParkingSystem-rescue_SSM3K333R,LF-MOSFETS Q 0 40 Y Y 1 F N
+F0 "Q" -450 450 50 H V C CNN
+F1 "ParkingSystem-rescue_SSM3K333R,LF-MOSFETS" -200 350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 100 0 283 0 1 0 f
+P 2 0 1 0 -200 0 -50 0 N
+P 2 0 1 20 -50 100 -50 -100 N
+P 2 0 1 0 0 -150 150 -150 N
+P 2 0 1 20 0 -100 0 -200 N
+P 2 0 1 20 0 50 0 -50 N
+P 2 0 1 0 0 100 0 100 N
+P 2 0 1 20 0 200 0 100 N
+P 2 0 1 0 50 0 150 0 N
+P 2 0 1 0 150 -250 150 -350 N
+P 2 0 1 0 150 -150 150 -250 N
+P 2 0 1 0 150 0 150 -150 N
+P 2 0 1 0 150 150 150 250 N
+P 2 0 1 0 150 350 150 250 N
+P 2 0 1 0 200 50 300 50 N
+P 3 0 1 0 0 150 100 150 150 150 N
+P 3 0 1 0 150 200 250 200 250 50 N
+P 3 0 1 0 250 0 250 -200 150 -200 N
+P 4 0 1 0 0 0 50 50 50 -50 0 0 N
+P 4 0 1 0 250 50 200 0 300 0 250 50 N
+X ~ 1 -300 0 100 R 50 50 1 1 I
+X ~ 2 150 -450 100 U 50 50 1 1 w
+X ~ 3 150 450 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ParkingSystem-rescue_STM32F103C4Tx-MCU_ST_STM32F1
+#
+DEF ParkingSystem-rescue_STM32F103C4Tx-MCU_ST_STM32F1 U 0 20 Y Y 1 F N
 F0 "U" -600 1450 50 H V L CNN
-F1 "MCU_ST_STM32F1_STM32F103C4Tx" 300 1450 50 H V L CNN
+F1 "ParkingSystem-rescue_STM32F103C4Tx-MCU_ST_STM32F1" 300 1450 50 H V L CNN
 F2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" -600 -1400 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS STM32F103C6Tx
 $FPLIST
  LQFP*7x7mm*P0.5mm*
 $ENDFPLIST
@@ -272,137 +454,11 @@ X VDDA 9 200 1500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ParkingSystem-rescue_PJ-002A-Connectors
+# ParkingSystem-rescue_SW_Push-Switch
 #
-DEF ParkingSystem-rescue_PJ-002A-Connectors J 0 40 Y Y 1 F N
-F0 "J" -350 350 50 H V C CNN
-F1 "ParkingSystem-rescue_PJ-002A-Connectors" -250 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A -200 125 25 901 -901 0 1 0 N -200 150 -200 100
-S -400 200 100 -100 0 1 0 f
-P 2 0 1 0 50 150 -200 150 N
-P 2 0 1 0 100 150 50 150 N
-P 3 0 1 0 50 150 50 100 -200 100 N
-P 3 0 1 0 100 50 -50 50 -50 0 N
-P 4 0 1 0 -100 0 -50 -50 0 0 -100 0 N
-P 5 0 1 0 100 -50 -100 -50 -150 0 -200 -50 -250 -50 N
-X ~ 1 200 150 100 L 50 50 1 1 w
-X ~ 2 200 50 100 L 50 50 1 1 W
-X ~ 3 200 -50 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# ParkingSystem-rescue_SSM3K333R,LF-MOSFETS
-#
-DEF ParkingSystem-rescue_SSM3K333R,LF-MOSFETS Q 0 40 Y Y 1 F N
-F0 "Q" -450 450 50 H V C CNN
-F1 "ParkingSystem-rescue_SSM3K333R,LF-MOSFETS" -200 350 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 100 0 283 0 1 0 f
-P 2 0 1 0 -200 0 -50 0 N
-P 2 0 1 20 -50 100 -50 -100 N
-P 2 0 1 0 0 -150 150 -150 N
-P 2 0 1 20 0 -100 0 -200 N
-P 2 0 1 20 0 50 0 -50 N
-P 2 0 1 0 0 100 0 100 N
-P 2 0 1 20 0 200 0 100 N
-P 2 0 1 0 50 0 150 0 N
-P 2 0 1 0 150 -250 150 -350 N
-P 2 0 1 0 150 -150 150 -250 N
-P 2 0 1 0 150 0 150 -150 N
-P 2 0 1 0 150 150 150 250 N
-P 2 0 1 0 150 350 150 250 N
-P 2 0 1 0 200 50 300 50 N
-P 3 0 1 0 0 150 100 150 150 150 N
-P 3 0 1 0 150 200 250 200 250 50 N
-P 3 0 1 0 250 0 250 -200 150 -200 N
-P 4 0 1 0 0 0 50 50 50 -50 0 0 N
-P 4 0 1 0 250 50 200 0 300 0 250 50 N
-X ~ 1 -300 0 100 R 50 50 1 1 I
-X ~ 2 150 -450 100 U 50 50 1 1 w
-X ~ 3 150 450 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Regulator_Switching_R-783.3-0.5
-#
-DEF Regulator_Switching_R-783.3-0.5 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Switching_R-783.3-0.5" 0 125 50 H V L CNN
-F2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" 50 -250 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS R-78E3.3-0.5 R-78E9.0-0.5 R-78E12-0.5 R-78E15-0.5 R-78E5.0-1.0 R-78E3.3-1.0 R-78C1.8-1.0 R-78C5.0-1.0 R-78C3.3-1.0 R-78C9.0-1.0 R-78C12-1.0 R-78C15-1.0 R-781.8-1.0 R-782.5-1.0 R-783.3-1.0 R-785.0-1.0 R-781.5-0.5 R-781.8-0.5 R-782.5-0.5 R-783.3-0.5 R-785.0-0.5 R-786.5-0.5 R-7812-0.5 R-7815-0.5
-$FPLIST
- Converter*DCDC*RECOM*R*78E*0.5*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Regulator_Switching_R-78E5.0-1.0
-#
-DEF Regulator_Switching_R-78E5.0-1.0 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Switching_R-78E5.0-1.0" 0 125 50 H V L CNN
-F2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" 50 -250 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Converter*DCDC*RECOM*R*78E*0.5*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Sensor_Temperature_DS1621S
-#
-DEF Sensor_Temperature_DS1621S U 0 40 Y Y 1 F N
-F0 "U" -300 350 50 H V C CNN
-F1 "Sensor_Temperature_DS1621S" 250 350 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -1000 -350 50 H I C CNN
-F3 "" -150 250 50 H I C CNN
-$FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
-$ENDFPLIST
-DRAW
-A -130 125 25 1 1799 0 1 10 N -105 125 -155 125
-C -130 -100 50 0 1 10 F
-S -400 300 400 -300 0 1 10 f
-S -105 -75 -155 0 0 1 10 F
-P 2 0 1 10 -155 25 -130 25 N
-P 2 0 1 10 -155 50 -130 50 N
-P 2 0 1 10 -155 75 -130 75 N
-P 2 0 1 10 -155 100 -130 100 N
-P 2 0 1 10 -155 125 -155 0 N
-P 2 0 1 10 -155 125 -130 125 N
-P 2 0 1 10 -105 125 -105 0 N
-X SDA 1 -500 200 100 R 50 50 1 1 B
-X SCL 2 -500 100 100 R 50 50 1 1 I
-X TOUT 3 500 0 100 L 50 50 1 1 O
-X GND 4 0 -400 100 U 50 50 1 1 W
-X A2 5 -500 -200 100 R 50 50 1 1 I
-X A1 6 -500 -100 100 R 50 50 1 1 I
-X A0 7 -500 0 100 R 50 50 1 1 I
-X VDD 8 0 400 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF ParkingSystem-rescue_SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "ParkingSystem-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -412,65 +468,6 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3V3
-#
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

@@ -15,7 +15,7 @@ Comment3 "Group #: 21"
 Comment4 "Author: Chathula Adikary"
 $EndDescr
 $Comp
-L power:GND #PWR0101
+L ParkingSystem-rescue:GND-power #PWR0101
 U 1 1 5C61FDE7
 P 8300 4200
 F 0 "#PWR0101" H 8300 3950 50  0001 C CNN
@@ -28,7 +28,7 @@ $EndComp
 Wire Wire Line
 	8300 4000 8300 4100
 $Comp
-L Device:C C1
+L ParkingSystem-rescue:C-Device C1
 U 1 1 5C6203D0
 P 9700 1100
 F 0 "C1" H 9815 1146 50  0000 L CNN
@@ -39,7 +39,7 @@ F 3 "~" H 9700 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L ParkingSystem-rescue:C-Device C2
 U 1 1 5C620444
 P 10100 1100
 F 0 "C2" H 10215 1146 50  0000 L CNN
@@ -50,7 +50,7 @@ F 3 "~" H 10100 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L ParkingSystem-rescue:C-Device C3
 U 1 1 5C6204D8
 P 10500 1100
 F 0 "C3" H 10615 1146 50  0000 L CNN
@@ -61,7 +61,7 @@ F 3 "~" H 10500 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L ParkingSystem-rescue:GND-power #PWR0103
 U 1 1 5C6205A7
 P 9700 1300
 F 0 "#PWR0103" H 9700 1050 50  0001 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 9700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L ParkingSystem-rescue:GND-power #PWR0104
 U 1 1 5C620600
 P 10100 1300
 F 0 "#PWR0104" H 10100 1050 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 10100 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L ParkingSystem-rescue:GND-power #PWR0105
 U 1 1 5C620614
 P 10500 1300
 F 0 "#PWR0105" H 10500 1050 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 10500 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0106
+L ParkingSystem-rescue:+3V3-power #PWR0106
 U 1 1 5C6207B5
 P 9700 900
 F 0 "#PWR0106" H 9700 750 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 9700 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0107
+L ParkingSystem-rescue:+3V3-power #PWR0107
 U 1 1 5C6208B0
 P 10100 900
 F 0 "#PWR0107" H 10100 750 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 10100 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0108
+L ParkingSystem-rescue:+3V3-power #PWR0108
 U 1 1 5C6208DF
 P 10500 900
 F 0 "#PWR0108" H 10500 750 50  0001 C CNN
@@ -146,7 +146,7 @@ F 3 "" H 1350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0109
+L ParkingSystem-rescue:+12V-power #PWR0109
 U 1 1 5C6313CD
 P 1800 1150
 F 0 "#PWR0109" H 1800 1000 50  0001 C CNN
@@ -157,7 +157,7 @@ F 3 "" H 1800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L ParkingSystem-rescue:GND-power #PWR0110
 U 1 1 5C631434
 P 1800 1500
 F 0 "#PWR0110" H 1800 1250 50  0001 C CNN
@@ -168,7 +168,7 @@ F 3 "" H 1800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:R-78E5.0-1.0 U1
+L ParkingSystem-rescue:R-78E5.0-1.0-Regulator_Switching U1
 U 1 1 5C633FDE
 P 3000 1150
 F 0 "U1" H 3000 1392 50  0000 C CNN
@@ -179,7 +179,7 @@ F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 3000 1150 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L ParkingSystem-rescue:C-Device C4
 U 1 1 5C63444A
 P 2400 1350
 F 0 "C4" H 2515 1396 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "~" H 2400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L ParkingSystem-rescue:C-Device C5
 U 1 1 5C6345BD
 P 3600 1350
 F 0 "C5" H 3715 1396 50  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "~" H 3600 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L ParkingSystem-rescue:GND-power #PWR0102
 U 1 1 5C634B50
 P 2400 1700
 F 0 "#PWR0102" H 2400 1450 50  0001 C CNN
@@ -212,7 +212,7 @@ F 3 "" H 2400 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L ParkingSystem-rescue:GND-power #PWR0111
 U 1 1 5C634B8A
 P 3600 1700
 F 0 "#PWR0111" H 3600 1450 50  0001 C CNN
@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 1150 3600 1200
 $Comp
-L power:GND #PWR0112
+L ParkingSystem-rescue:GND-power #PWR0112
 U 1 1 5C636629
 P 3000 1700
 F 0 "#PWR0112" H 3000 1450 50  0001 C CNN
@@ -256,7 +256,7 @@ $EndComp
 Wire Wire Line
 	3000 1450 3000 1700
 $Comp
-L power:+12V #PWR0113
+L ParkingSystem-rescue:+12V-power #PWR0113
 U 1 1 5C63689C
 P 2400 1000
 F 0 "#PWR0113" H 2400 850 50  0001 C CNN
@@ -267,7 +267,7 @@ F 3 "" H 2400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L ParkingSystem-rescue:+5V-power #PWR0114
 U 1 1 5C636DED
 P 3600 1000
 F 0 "#PWR0114" H 3600 850 50  0001 C CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 	3600 1000 3600 1150
 Connection ~ 3600 1150
 $Comp
-L Regulator_Switching:R-783.3-0.5 U2
+L ParkingSystem-rescue:R-783.3-0.5-Regulator_Switching U2
 U 1 1 5C63794E
 P 4900 1150
 F 0 "U2" H 4900 1392 50  0000 C CNN
@@ -295,7 +295,7 @@ F 3 "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf" H 4900 1150 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L ParkingSystem-rescue:C-Device C6
 U 1 1 5C63878E
 P 4350 1350
 F 0 "C6" H 4465 1396 50  0000 L CNN
@@ -306,7 +306,7 @@ F 3 "~" H 4350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L ParkingSystem-rescue:GND-power #PWR0115
 U 1 1 5C63882D
 P 4350 1700
 F 0 "#PWR0115" H 4350 1450 50  0001 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 4350 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0116
+L ParkingSystem-rescue:+5V-power #PWR0116
 U 1 1 5C638896
 P 4350 1000
 F 0 "#PWR0116" H 4350 850 50  0001 C CNN
@@ -328,7 +328,7 @@ F 3 "" H 4350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0117
+L ParkingSystem-rescue:+3V3-power #PWR0117
 U 1 1 5C639469
 P 5400 1000
 F 0 "#PWR0117" H 5400 850 50  0001 C CNN
@@ -339,7 +339,7 @@ F 3 "" H 5400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L ParkingSystem-rescue:GND-power #PWR0118
 U 1 1 5C639A64
 P 4900 1700
 F 0 "#PWR0118" H 4900 1450 50  0001 C CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1150 5400 1000
 $Comp
-L Connector:Conn_01x04_Female J4
+L ParkingSystem-rescue:Conn_01x04_Female-Connector J4
 U 1 1 5C63D1CF
 P 1000 7100
 F 0 "J4" H 894 6675 50  0000 C CNN
@@ -375,7 +375,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 7100 1500 7100
 $Comp
-L power:GND #PWR0119
+L ParkingSystem-rescue:GND-power #PWR0119
 U 1 1 5C63EB7A
 P 1400 7250
 F 0 "#PWR0119" H 1400 7000 50  0001 C CNN
@@ -386,7 +386,7 @@ F 3 "" H 1400 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0120
+L ParkingSystem-rescue:+5V-power #PWR0120
 U 1 1 5C63EC69
 P 1400 6700
 F 0 "#PWR0120" H 1400 6550 50  0001 C CNN
@@ -405,7 +405,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7200 1400 7250
 $Comp
-L MCU_ST_STM32F1:STM32F103C4Tx U3
+L ParkingSystem-rescue:STM32F103C4Tx-MCU_ST_STM32F1 U3
 U 1 1 5C643133
 P 8400 2500
 F 0 "U3" H 7550 4200 50  0000 C CNN
@@ -416,7 +416,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L ParkingSystem-rescue:C-Device C9
 U 1 1 5C6465E4
 P 9650 2150
 F 0 "C9" H 9765 2196 50  0000 L CNN
@@ -427,7 +427,7 @@ F 3 "~" H 9650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L ParkingSystem-rescue:C-Device C10
 U 1 1 5C6465EB
 P 10050 2150
 F 0 "C10" H 10165 2196 50  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "~" H 10050 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L ParkingSystem-rescue:C-Device C11
 U 1 1 5C6465F2
 P 10450 2150
 F 0 "C11" H 10565 2196 50  0000 L CNN
@@ -449,7 +449,7 @@ F 3 "~" H 10450 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L ParkingSystem-rescue:GND-power #PWR0121
 U 1 1 5C6465F9
 P 9650 2350
 F 0 "#PWR0121" H 9650 2100 50  0001 C CNN
@@ -460,7 +460,7 @@ F 3 "" H 9650 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L ParkingSystem-rescue:GND-power #PWR0122
 U 1 1 5C6465FF
 P 10050 2350
 F 0 "#PWR0122" H 10050 2100 50  0001 C CNN
@@ -471,7 +471,7 @@ F 3 "" H 10050 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
+L ParkingSystem-rescue:GND-power #PWR0123
 U 1 1 5C646605
 P 10450 2350
 F 0 "#PWR0123" H 10450 2100 50  0001 C CNN
@@ -482,7 +482,7 @@ F 3 "" H 10450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0124
+L ParkingSystem-rescue:+3V3-power #PWR0124
 U 1 1 5C64660B
 P 9650 1950
 F 0 "#PWR0124" H 9650 1800 50  0001 C CNN
@@ -493,7 +493,7 @@ F 3 "" H 9650 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0125
+L ParkingSystem-rescue:+3V3-power #PWR0125
 U 1 1 5C646611
 P 10050 1950
 F 0 "#PWR0125" H 10050 1800 50  0001 C CNN
@@ -504,7 +504,7 @@ F 3 "" H 10050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0126
+L ParkingSystem-rescue:+3V3-power #PWR0126
 U 1 1 5C646617
 P 10450 1950
 F 0 "#PWR0126" H 10450 1800 50  0001 C CNN
@@ -537,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 1250 10100 1300
 $Comp
-L Device:C C12
+L ParkingSystem-rescue:C-Device C12
 U 1 1 5C65CCA8
 P 9850 3150
 F 0 "C12" H 9965 3196 50  0000 L CNN
@@ -548,7 +548,7 @@ F 3 "~" H 9850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L ParkingSystem-rescue:C-Device C13
 U 1 1 5C65CD30
 P 10300 3150
 F 0 "C13" H 10415 3196 50  0000 L CNN
@@ -559,7 +559,7 @@ F 3 "~" H 10300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L ParkingSystem-rescue:GND-power #PWR0127
 U 1 1 5C65D00B
 P 9850 3400
 F 0 "#PWR0127" H 9850 3150 50  0001 C CNN
@@ -570,7 +570,7 @@ F 3 "" H 9850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L ParkingSystem-rescue:GND-power #PWR0128
 U 1 1 5C65D06D
 P 10300 3400
 F 0 "#PWR0128" H 10300 3150 50  0001 C CNN
@@ -581,7 +581,7 @@ F 3 "" H 10300 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0129
+L ParkingSystem-rescue:+3V3-power #PWR0129
 U 1 1 5C65D3C4
 P 9850 2900
 F 0 "#PWR0129" H 9850 2750 50  0001 C CNN
@@ -592,7 +592,7 @@ F 3 "" H 9850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0130
+L ParkingSystem-rescue:+3V3-power #PWR0130
 U 1 1 5C65D646
 P 10300 2900
 F 0 "#PWR0130" H 10300 2750 50  0001 C CNN
@@ -637,7 +637,7 @@ Wire Wire Line
 	8500 4100 8400 4100
 Connection ~ 8400 4100
 $Comp
-L power:+3V3 #PWR0131
+L ParkingSystem-rescue:+3V3-power #PWR0131
 U 1 1 5C669115
 P 8400 850
 F 0 "#PWR0131" H 8400 700 50  0001 C CNN
@@ -670,7 +670,7 @@ RESET
 Wire Wire Line
 	7700 1200 7400 1200
 $Comp
-L Switch:SW_Push SW1
+L ParkingSystem-rescue:SW_Push-Switch SW1
 U 1 1 5C672228
 P 10450 4250
 F 0 "SW1" V 10404 4398 50  0000 L CNN
@@ -685,7 +685,7 @@ RESET
 Wire Wire Line
 	9800 4050 10100 4050
 $Comp
-L Device:C C14
+L ParkingSystem-rescue:C-Device C14
 U 1 1 5C675B0A
 P 10100 4250
 F 0 "C14" H 10215 4296 50  0000 L CNN
@@ -696,7 +696,7 @@ F 3 "~" H 10100 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L ParkingSystem-rescue:GND-power #PWR0132
 U 1 1 5C675CBD
 P 10100 4450
 F 0 "#PWR0132" H 10100 4200 50  0001 C CNN
@@ -707,7 +707,7 @@ F 3 "" H 10100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L ParkingSystem-rescue:GND-power #PWR0133
 U 1 1 5C675D15
 P 10450 4500
 F 0 "#PWR0133" H 10450 4250 50  0001 C CNN
@@ -727,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 4450 10450 4500
 $Comp
-L Sensor_Temperature:DS1621S U4
+L ParkingSystem-rescue:DS1621S-Sensor_Temperature U4
 U 1 1 5C636D83
 P 10200 5700
 F 0 "U4" H 10400 5350 50  0000 L CNN
@@ -754,7 +754,7 @@ I2C1_SDA
 Text Label 9000 5600 0    50   ~ 0
 I2C1_SCL
 $Comp
-L power:GND #PWR0134
+L ParkingSystem-rescue:GND-power #PWR0134
 U 1 1 5C64110C
 P 10200 6200
 F 0 "#PWR0134" H 10200 5950 50  0001 C CNN
@@ -769,7 +769,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 5150 10200 5300
 $Comp
-L power:GND #PWR0136
+L ParkingSystem-rescue:GND-power #PWR0136
 U 1 1 5C64A7B2
 P 9600 6150
 F 0 "#PWR0136" H 9600 5900 50  0001 C CNN
@@ -837,7 +837,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3000 4850 3000
 $Comp
-L power:GND #PWR0137
+L ParkingSystem-rescue:GND-power #PWR0137
 U 1 1 5C652A73
 P 2850 3600
 F 0 "#PWR0137" H 2850 3350 50  0001 C CNN
@@ -848,7 +848,7 @@ F 3 "" H 2850 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0138
+L ParkingSystem-rescue:GND-power #PWR0138
 U 1 1 5C652B11
 P 4150 3600
 F 0 "#PWR0138" H 4150 3350 50  0001 C CNN
@@ -859,7 +859,7 @@ F 3 "" H 4150 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0139
+L ParkingSystem-rescue:GND-power #PWR0139
 U 1 1 5C652B75
 P 5350 3650
 F 0 "#PWR0139" H 5350 3400 50  0001 C CNN
@@ -878,7 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2450 2850 2550
 $Comp
-L Device:R_US R8
+L ParkingSystem-rescue:R_US-Device R8
 U 1 1 5C66C73D
 P 9450 5250
 F 0 "R8" H 9300 5300 50  0000 L CNN
@@ -889,7 +889,7 @@ F 3 "~" H 9450 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R9
+L ParkingSystem-rescue:R_US-Device R9
 U 1 1 5C66C998
 P 9600 5250
 F 0 "R9" H 9668 5296 50  0000 L CNN
@@ -910,7 +910,7 @@ Connection ~ 9600 5600
 Wire Wire Line
 	9600 5600 9700 5600
 $Comp
-L power:+3V3 #PWR0140
+L ParkingSystem-rescue:+3V3-power #PWR0140
 U 1 1 5C670D56
 P 9450 5000
 F 0 "#PWR0140" H 9450 4850 50  0001 C CNN
@@ -934,7 +934,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2450 5350 2550
 $Comp
-L Device:R_US R4
+L ParkingSystem-rescue:R_US-Device R4
 U 1 1 5C6885B6
 P 2350 3250
 F 0 "R4" H 2418 3296 50  0000 L CNN
@@ -945,7 +945,7 @@ F 3 "~" H 2350 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R5
+L ParkingSystem-rescue:R_US-Device R5
 U 1 1 5C688C49
 P 3650 3250
 F 0 "R5" H 3718 3296 50  0000 L CNN
@@ -980,7 +980,7 @@ Connection ~ 4150 3500
 Wire Wire Line
 	4150 3500 4150 3600
 $Comp
-L Device:R_US R6
+L ParkingSystem-rescue:R_US-Device R6
 U 1 1 5C69A69C
 P 4850 3250
 F 0 "R6" H 4918 3296 50  0000 L CNN
@@ -1014,7 +1014,7 @@ F 3 "" H 6500 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0141
+L ParkingSystem-rescue:GND-power #PWR0141
 U 1 1 5C6AD2BF
 P 6650 3600
 F 0 "#PWR0141" H 6650 3350 50  0001 C CNN
@@ -1031,7 +1031,7 @@ INDICATOR
 Wire Wire Line
 	6200 3000 6150 3000
 $Comp
-L Device:R_US R7
+L ParkingSystem-rescue:R_US-Device R7
 U 1 1 5C6B49FA
 P 6150 3250
 F 0 "R7" H 6218 3296 50  0000 L CNN
@@ -1065,7 +1065,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1200 4350 1150
 $Comp
-L Connectors:0430450400 J2
+L ParkingSystem-rescue:0430450400-Connectors J2
 U 1 1 5C704C8F
 P 2200 6650
 F 0 "J2" H 2256 7075 50  0000 C CNN
@@ -1076,7 +1076,7 @@ F 3 "" H 2200 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0142
+L ParkingSystem-rescue:+12V-power #PWR0142
 U 1 1 5C705D60
 P 2600 6350
 F 0 "#PWR0142" H 2600 6200 50  0001 C CNN
@@ -1099,7 +1099,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6750 2750 6750
 $Comp
-L Connectors:0430450200 J5
+L ParkingSystem-rescue:0430450200-Connectors J5
 U 1 1 5C71D021
 P 2200 7350
 F 0 "J5" H 2256 7625 50  0000 C CNN
@@ -1110,7 +1110,7 @@ F 3 "" H 2200 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0143
+L ParkingSystem-rescue:+12V-power #PWR0143
 U 1 1 5C71D3B6
 P 2600 7200
 F 0 "#PWR0143" H 2600 7050 50  0001 C CNN
@@ -1129,7 +1129,7 @@ IND_POWER
 Wire Wire Line
 	2850 7400 2350 7400
 $Comp
-L Buzzers:AI-2437-TWT-R LS1
+L ParkingSystem-rescue:AI-2437-TWT-R-Buzzers LS1
 U 1 1 5C7379E1
 P 8200 5800
 F 0 "LS1" H 8069 6415 50  0000 C CNN
@@ -1140,7 +1140,7 @@ F 3 "" H 8200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0144
+L ParkingSystem-rescue:+12V-power #PWR0144
 U 1 1 5C737B31
 P 8500 5350
 F 0 "#PWR0144" H 8500 5200 50  0001 C CNN
@@ -1174,7 +1174,7 @@ BUZZER
 Wire Wire Line
 	1100 3000 1050 3000
 $Comp
-L power:GND #PWR0145
+L ParkingSystem-rescue:GND-power #PWR0145
 U 1 1 5C7471C0
 P 1550 3600
 F 0 "#PWR0145" H 1550 3350 50  0001 C CNN
@@ -1189,7 +1189,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2450 1550 2550
 $Comp
-L Device:R_US R3
+L ParkingSystem-rescue:R_US-Device R3
 U 1 1 5C7471C8
 P 1050 3250
 F 0 "R3" H 1118 3296 50  0000 L CNN
@@ -1214,7 +1214,7 @@ Wire Wire Line
 Text Label 1550 2450 0    50   ~ 0
 BUZ_POWER
 $Comp
-L Device:C C15
+L ParkingSystem-rescue:C-Device C15
 U 1 1 5C66C793
 P 10950 5650
 F 0 "C15" H 11065 5696 50  0000 L CNN
@@ -1225,7 +1225,7 @@ F 3 "~" H 10950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0147
+L ParkingSystem-rescue:GND-power #PWR0147
 U 1 1 5C66D07B
 P 10950 5950
 F 0 "#PWR0147" H 10950 5700 50  0001 C CNN
@@ -1240,7 +1240,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 5400 10950 5500
 $Comp
-L Device:LED D1
+L ParkingSystem-rescue:LED-Device D1
 U 1 1 5C67C377
 P 5850 1100
 F 0 "D1" V 5888 983 50  0000 R CNN
@@ -1251,7 +1251,7 @@ F 3 "~" H 5850 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0148
+L ParkingSystem-rescue:+3V3-power #PWR0148
 U 1 1 5C67C58D
 P 5850 900
 F 0 "#PWR0148" H 5850 750 50  0001 C CNN
@@ -1262,7 +1262,7 @@ F 3 "" H 5850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0149
+L ParkingSystem-rescue:GND-power #PWR0149
 U 1 1 5C67C622
 P 5850 1650
 F 0 "#PWR0149" H 5850 1400 50  0001 C CNN
@@ -1273,7 +1273,7 @@ F 3 "" H 5850 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R1
+L ParkingSystem-rescue:R_US-Device R1
 U 1 1 5C67C735
 P 5850 1450
 F 0 "R1" H 5918 1496 50  0000 L CNN
@@ -1289,24 +1289,16 @@ Wire Wire Line
 	5850 1250 5850 1300
 Wire Wire Line
 	5850 1650 5850 1600
-Text Label 9350 2700 2    50   ~ 0
+Text Label 7300 2700 0    50   ~ 0
 BUZZER
-Wire Wire Line
-	9350 2700 9000 2700
-Text Label 9350 2800 2    50   ~ 0
+Text Label 9300 2600 2    50   ~ 0
 RED
-Text Label 7300 3400 0    50   ~ 0
+Text Label 9300 2800 2    50   ~ 0
 GREEN
-Text Label 7300 3300 0    50   ~ 0
+Text Label 9300 2700 2    50   ~ 0
 BLUE
-Wire Wire Line
-	9350 2800 9000 2800
-Wire Wire Line
-	7300 3400 7700 3400
-Wire Wire Line
-	7300 3300 7700 3300
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J3
+L ParkingSystem-rescue:Conn_ARM_JTAG_SWD_10-Connector J3
 U 1 1 5C66F75A
 P 4400 6850
 F 0 "J3" H 3960 6896 50  0000 R CNN
@@ -1317,7 +1309,7 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR04
+L ParkingSystem-rescue:+3V3-power #PWR04
 U 1 1 5C66FD39
 P 4400 6050
 F 0 "#PWR04" H 4400 5900 50  0001 C CNN
@@ -1330,7 +1322,7 @@ $EndComp
 Wire Wire Line
 	4400 6050 4400 6250
 $Comp
-L power:GND #PWR05
+L ParkingSystem-rescue:GND-power #PWR05
 U 1 1 5C676D24
 P 4400 7550
 F 0 "#PWR05" H 4400 7300 50  0001 C CNN
@@ -1362,7 +1354,7 @@ SWDCLK
 Wire Wire Line
 	9350 3700 9000 3700
 $Comp
-L Device:R_US R2
+L ParkingSystem-rescue:R_US-Device R2
 U 1 1 5C6B9C73
 P 6400 1550
 F 0 "R2" H 6332 1504 50  0000 R CNN
@@ -1373,7 +1365,7 @@ F 3 "~" H 6400 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR02
+L ParkingSystem-rescue:GND-power #PWR02
 U 1 1 5C6C098A
 P 6400 1750
 F 0 "#PWR02" H 6400 1500 50  0001 C CNN
@@ -1408,7 +1400,7 @@ TDO
 Wire Wire Line
 	7300 2600 7700 2600
 $Comp
-L Device:R_US R10
+L ParkingSystem-rescue:R_US-Device R10
 U 1 1 5C7615AD
 P 4950 6250
 F 0 "R10" H 5018 6296 50  0000 L CNN
@@ -1419,7 +1411,7 @@ F 3 "~" H 4950 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR03
+L ParkingSystem-rescue:+3V3-power #PWR03
 U 1 1 5C7616B6
 P 4950 5950
 F 0 "#PWR03" H 4950 5800 50  0001 C CNN
@@ -1437,7 +1429,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5950 4950 6100
 $Comp
-L Device:Crystal Y1
+L ParkingSystem-rescue:Crystal-Device Y1
 U 1 1 5C670581
 P 7350 1650
 F 0 "Y1" V 7350 1600 50  0000 L CNN
@@ -1462,7 +1454,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1500 7350 1500
 $Comp
-L Device:C_Small C7
+L ParkingSystem-rescue:C_Small-Device C7
 U 1 1 5C6C5E13
 P 7100 1500
 F 0 "C7" V 7150 1400 50  0000 C CNN
@@ -1473,7 +1465,7 @@ F 3 "~" H 7100 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C8
+L ParkingSystem-rescue:C_Small-Device C8
 U 1 1 5C6C5F00
 P 7100 1800
 F 0 "C8" V 7150 1700 50  0000 C CNN
@@ -1496,7 +1488,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1800 7000 1800
 $Comp
-L power:GND #PWR01
+L ParkingSystem-rescue:GND-power #PWR01
 U 1 1 5C6E00F1
 P 6750 1650
 F 0 "#PWR01" H 6750 1400 50  0001 C CNN
@@ -1516,17 +1508,14 @@ Text Label 9300 2400 2    50   ~ 0
 ECHO
 Wire Wire Line
 	9300 2400 9000 2400
-Text Label 9300 2300 2    50   ~ 0
+Text Label 9300 2500 2    50   ~ 0
 TRIG
-Wire Wire Line
-	9300 2300 9000 2300
 NoConn ~ 7700 1900
 NoConn ~ 7700 2000
 NoConn ~ 7700 2100
 NoConn ~ 7700 2300
 NoConn ~ 7700 2400
 NoConn ~ 7700 2500
-NoConn ~ 7700 2700
 NoConn ~ 7700 2800
 NoConn ~ 7700 3200
 NoConn ~ 7700 3500
@@ -1538,10 +1527,7 @@ NoConn ~ 9000 3400
 NoConn ~ 9000 3200
 NoConn ~ 9000 3100
 NoConn ~ 9000 3000
-NoConn ~ 9000 2900
 NoConn ~ 9000 3300
-NoConn ~ 9000 2600
-NoConn ~ 9000 2500
 NoConn ~ 8200 1000
 Text Label 6650 2450 0    50   ~ 0
 IND_POWER
@@ -1552,15 +1538,13 @@ G_POWER
 Wire Wire Line
 	2750 6650 2350 6650
 NoConn ~ 10700 5700
-Text Label 7250 3100 0    50   ~ 0
+Text Label 9400 2900 2    50   ~ 0
 INDICATOR
-Wire Wire Line
-	7250 3100 7700 3100
 $Comp
-L power:+3V3 #PWR?
+L ParkingSystem-rescue:+3V3-power #PWR0135
 U 1 1 5C6AC93A
 P 10200 5150
-F 0 "#PWR?" H 10200 5000 50  0001 C CNN
+F 0 "#PWR0135" H 10200 5000 50  0001 C CNN
 F 1 "+3V3" H 10215 5323 50  0000 C CNN
 F 2 "" H 10200 5150 50  0001 C CNN
 F 3 "" H 10200 5150 50  0001 C CNN
@@ -1568,14 +1552,30 @@ F 3 "" H 10200 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L ParkingSystem-rescue:+3V3-power #PWR0146
 U 1 1 5C6AC9DD
 P 10950 5400
-F 0 "#PWR?" H 10950 5250 50  0001 C CNN
+F 0 "#PWR0146" H 10950 5250 50  0001 C CNN
 F 1 "+3V3" H 10965 5573 50  0000 C CNN
 F 2 "" H 10950 5400 50  0001 C CNN
 F 3 "" H 10950 5400 50  0001 C CNN
 	1    10950 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9300 2600 9000 2600
+Wire Wire Line
+	9300 2700 9000 2700
+Wire Wire Line
+	9300 2800 9000 2800
+Wire Wire Line
+	9300 2500 9000 2500
+NoConn ~ 9000 2300
+NoConn ~ 7700 3300
+NoConn ~ 7700 3400
+Wire Wire Line
+	7300 2700 7700 2700
+Wire Wire Line
+	9400 2900 9000 2900
+NoConn ~ 7700 3100
 $EndSCHEMATC
